@@ -1,0 +1,19 @@
+.hcontainer {
+    background-color: darkblue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hlogo {
+    height: 50px;
+    width: auto;
+    opacity: 50%;
+}
+
+.haul {
+    color: white;
+    list-style-type: none;
+    text-decoration-line: none;
+    padding: 8px;
+}
