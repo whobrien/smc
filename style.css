@@ -1,6 +1,6 @@
 .hcontainer {
     background-color: lightskyblue;
-    height: 50px;
+    height: 55px;
     display: flex;
     justify-content: space-between;
 }
@@ -17,12 +17,33 @@
     padding: 8px;
 }
 
+
 .bcontainer {
+    display: grid;
+    grid: repeat(5, auto) / 1fr 2fr 2fr 1fr;
+    background-color: lightskyblue;
+}
+
+.bitem1 {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    text-emphasis: bold;
 
 }
 
-.bitem {
+.bimg1 {
+    height: 300px;
+    width: auto;
+    padding-bottom: 50px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2;
+}
 
+.text1 {
+    font-weight: bold;
+    font-size: 48px;
 }
 
 .fcontainer {
